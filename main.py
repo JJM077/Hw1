@@ -45,7 +45,7 @@ elif(gradepoint2 == "D"):
 else: 
   gradepoint2 = 0.0
 
-print(f"Grade Point for course is: {gradepoint2}")
+print(f"Grade Point for course 2 is: {gradepoint2}")
 
 gradepoint3 = input("Enter your course 3 letter grade: ")
 credit3 = input("Enter your course 3 credit: ") 
