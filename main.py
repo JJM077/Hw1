@@ -1,4 +1,4 @@
-# Author Joshua McIntyre
+# Author Joshua McIntyre 
 
 
 gradepoint1 = input("Enter your course 1 letter grade: ")
@@ -23,25 +23,25 @@ else:
 
 print(f"Grade point for course 1 is: {gradepoint1}")
 
-gradepoint = input("Enter your course 2 letter grade: ")
+gradepoint2 = input("Enter your course 2 letter grade: ")
 credit2 = input("Enter your course 2 credit: ")
 credit2 = float(credit2)
 if(gradepoint2 == "A"):
   gradepoint2 = 4.0
-if(gradepoint2 == "A-"):
-   gradepoint2 = 3.67
-if(gradepoint2 == "B+"):
-   gradepoint2 = 3.33
-if(gradepoint2 == "B"):
-   gradepoint2 = 3.0
-if(gradepoint2 == "B-"):
-   gradepoint2 = 2.67
-if(gradepoint2 == "C+"):
+elif(gradepoint2 == "A-"):
+  gradepoint2 = 3.67
+elif(gradepoint2 == "B+"):
+ gradepoint2 = 3.33
+elif(gradepoint2 == "B"):
+  gradepoint2 = 3.0
+elif(gradepoint2 == "B-"):
+ gradepoint2 = 2.67
+elif(gradepoint2 == "C+"):
   gradepoint2 = 2.33
-if(gradepoint2 == "C"):
-   gradepoint2 = 2.0
-if(gradepoint2 == "D"):
-   gradepoint2 = 1.0
+elif(gradepoint2 == "C"):
+  gradepoint2 = 2.0
+elif(gradepoint2 == "D"):
+  gradepoint2 = 1.0
 else: 
   gradepoint2 = 0.0
 
