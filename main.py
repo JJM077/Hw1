@@ -74,7 +74,7 @@ gradepoint1 = float(gradepoint1)
 gradepoint2 = float(gradepoint2)
 gradepoint3 = float(gradepoint3)
 gpa = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3)
-print(f"Your gpa is: {gpa}")
+print(f"Your GPA is: {gpa}")
 
 
 
