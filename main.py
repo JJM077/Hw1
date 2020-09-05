@@ -51,7 +51,7 @@ gradepoint3 = input("Enter your course 3 letter grade: ")
 credit3 = input("Enter your course 3 credit: ") 
 credit3 = float(credit3)
 if(gradepoint3 == "A"): 
-  gradepoint3 = 3.33
+  gradepoint3 = 4.0
 elif(gradepoint3 == "A-"):
   gradepoint3 = 3.67
 elif(gradepoint3 == "B+"):
