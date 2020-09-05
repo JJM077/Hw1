@@ -12,6 +12,8 @@ elif(gradepoint1 == "B+"):
   gradepoint1 = 3.33
 elif(gradepoint1 == "B"):
   gradepoint1 = 3.0
+elif(gradepoint1 == "B-"):
+  gradepoint1 = 2.67
 elif(gradepoint1 == "C+"):
   gradepoint1 = 2.33
 elif(gradepoint1 == "C"):
@@ -40,12 +42,14 @@ elif(gradepoint2 == "C+"):
   gradepoint2 = 2.33
 elif(gradepoint2 == "C"):
   gradepoint2 = 2.0
+elif(gradepoint2 == "C-")
+  gradepoint2 = 1.67
 elif(gradepoint2 == "D"):
   gradepoint2 = 1.0
 else: 
   gradepoint2 = 0.0
 
-print(f"Grade Point for course 2 is: {gradepoint2}")
+print(f"Grade point for course 2 is: {gradepoint2}")
 
 gradepoint3 = input("Enter your course 3 letter grade: ")
 credit3 = input("Enter your course 3 credit: ") 
@@ -64,6 +68,8 @@ elif(gradepoint3 == "C+"):
   gradepoint3 = 2.33
 elif(gradepoint3 == "C"):
   gradepoint3 = 2.0
+  elif(gradepoint3 == "C-"):
+  gradepoint3 = 1.67
 elif(gradepoint3 == "D"):
   gradepoint3 = 1.0
 else:
