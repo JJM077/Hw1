@@ -42,7 +42,7 @@ elif(gradepoint2 == "C+"):
   gradepoint2 = 2.33
 elif(gradepoint2 == "C"):
   gradepoint2 = 2.0
-elif(gradepoint2 == "C-")
+elif(gradepoint2 == "C-"):
   gradepoint2 = 1.67
 elif(gradepoint2 == "D"):
   gradepoint2 = 1.0
@@ -68,7 +68,7 @@ elif(gradepoint3 == "C+"):
   gradepoint3 = 2.33
 elif(gradepoint3 == "C"):
   gradepoint3 = 2.0
-  elif(gradepoint3 == "C-"):
+elif(gradepoint3 == "C-"):
   gradepoint3 = 1.67
 elif(gradepoint3 == "D"):
   gradepoint3 = 1.0
